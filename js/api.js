@@ -1,6 +1,8 @@
 const apiURL = 'https://fe08-films.herokuapp.com/';
-const authEndpoint  = '/auth';
-const filmEndpoint  = '/films';
+const authEndpoint  = 'auth';
+const filmEndpoint  = 'films';
+let tokenValue = [];
+let token = [];
 
 function auth() {
     return fetch(`${apiURL}${authEndpoint}`, {
