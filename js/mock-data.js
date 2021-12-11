@@ -10,7 +10,7 @@ let titles = [
     'Ghostbusters: Afterlife',
     'Free Guy',
 ];
-let directirs = [
+let directors = [
     'Denis Villeneuve',
     'Destin Daniel Cretton',
     'T.J. Gnanavel',
@@ -36,6 +36,6 @@ let discriptions = [
 ];
 export {
     titles,
-    directirs,
+    directors,
     discriptions
 }
