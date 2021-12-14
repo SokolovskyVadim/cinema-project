@@ -1,5 +1,5 @@
 import {createMockData} from './data.js';
-import {getFilmList} from './api.js';
+// import {getFilmList} from './api.js';
 import {renderFilmsCards} from './render.js';
 import { sortFilmsData } from './sort.js';
 import { searchFilms } from './search.js';

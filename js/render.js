@@ -8,7 +8,7 @@ function createFilmsCard(obj) {
   copyCards.querySelector('.card-header__image').src = posters;
   copyCards.querySelector('.film-info__rating .film-info__text').textContent = rating;
   copyCards.querySelector('.film-info__plot .film-info__text').textContent = plot;
-  copyCards.querySelector('.film-info__release-date .film-info__text').textContent = releaseDate.toLocaleDateString();;
+  copyCards.querySelector('.film-info__release-date .film-info__text').textContent = releaseDate.toLocaleDateString();
   copyCards.querySelector('.film-info__director .film-info__text').textContent = directors;
   copyCards.querySelector('.film-info__box-office .film-info__text').textContent = `${boxOffice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
 
